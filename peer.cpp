@@ -25,8 +25,7 @@
 #include <time.h>
 #include <sys/mman.h>
 #include <fcntl.h>
-#include <time.h>
-#define PORT "5000" // the port client will be connecting to 
+#define PORT "5000" // the port client will be connecting to
 
 #define MAXDATASIZE 500 // max number of bytes we can get at once 
 using namespace std;
