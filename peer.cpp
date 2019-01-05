@@ -132,7 +132,7 @@ void GetFileFromPeer(char* peerInfo,string fileName, clock_t begin)
         printf("Receiving file %s status %s\n",fileName.c_str(),strerror(errno));
         clock_t end = clock();
         double time_spent = (double)-(end - begin) / CLOCKS_PER_SEC;
-        cout<<"\nExcution download time: "<<time_spent<<"\n";
+        cout<<"\nExcution download time: "<<abs(time_spent)<<"\n";
         
     }
 
